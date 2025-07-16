@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="pollName" type="id" />
+    <item name="candidates" type="id" />
+    <item name="createPoll" type="id" />
+</resources>

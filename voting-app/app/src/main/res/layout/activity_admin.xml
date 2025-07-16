@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/pollName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Poll Name"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/candidates"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Candidates (comma-separated)"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/createPoll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create Poll"
+        android:layout_marginTop="16dp" />
+    <Button
+        android:id="@+id/goToMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout" />
+
+    <EditText
+        android:id="@+id/pollIdInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Poll ID" />
+
+    <Button
+        android:id="@+id/viewVotes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Votes" />
+
+    <ListView
+        android:id="@+id/voteList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+</LinearLayout>
